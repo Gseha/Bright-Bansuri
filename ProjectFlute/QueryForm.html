@@ -1,0 +1,66 @@
+<html>
+<head><title> BrightBansuri </title>
+    <style>
+        p{ font-size: 20px; font-family: cursive;}
+h1{ font-size: 40px; font-family: 'caveat brush';}
+form{padding-left: 40px; text-align: left;}
+    </style>
+    <script src="Query.js"></script>
+ <link type="text/css" rel="stylesheet" href="index.css">   
+</head>
+<body alink=black vlink=black style=" background: url(cloud2.jpg);" > 
+    <div class="top "><a href="BansuriHomepage.html">Home</a></div>
+        <div class="top"><a href="menu.html">Menu</a></div>
+        <div class="top"><a href="aboutus.html">About Us</a></div>
+        <div class="top"><a href="BansuriContactUs.html">Contact Us</a></div>
+        <div class="top"><a href="bansuriBuyFlutes.html">Buy Flutes</a></div>
+        <div class="top"><a href="TalkToUs.html">Talk to Us</a></div>
+        <br><br><br><br>
+        <img src="morpankh 2.jpg" style="float: right; padding-left: 40px; height: 50%;"> 
+        <div style="background:url(cloud1.jpg) ; display: inline-block; border: 2px solid black; border-radius: 30px; padding: 20px; text-align: center; margin-left: 60px;">
+            <ul >
+                 <li><a href="QueryForm.html">Query Form</a></li>
+                 <li><a href="feedbackform.html">FeedBack Form</a></li>
+             </ul>
+         </div>      
+    <form id="Query Form">
+        <H1>QUERY FORM</H1><BR>
+            <P>First Name :</P>
+            <INPUT type="text" id="firstname" maxlength="20"/>
+            <br>
+            <p>Last Name</p>
+            <INPUT type="text" id="lastname" maxlength="20" />
+            <br>
+            <br>
+            <p>Enter your Email address: </p>
+            <INPUT type="email" id="email"/>
+            <br><br>
+            <p>Query Type:</p><br>
+            <select id="Query Type"> Query Type
+                <option value="Producing sound in Bansuri">Producing sound in Bansuri</option>
+                <option value="Playing Sargam on Bansuri">Playing Sargam on Bansuri</option>
+                <option value="Practising Alankars">Practising Alankaras</option>
+                <option value="Playing Ragas">Playing Ragas</option>
+                <option value="Understanding Music theory">Understanding Music theory</option>
+                <option value="Playing songs">Playing Songs</option>
+                <option value="Different scales">Using different scales of Bansuri</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <p>Describe Your Query: </p>
+            <br>
+            <textarea rows=8 cols=40 id="querytxt">Enter your Query here</textarea>
+            <br><br>
+            <input type="submit" name="submit" value="submit"  onclick="Submit()"/>
+            <input type="reset" name="reset" value="reset"/>
+            <br><br>
+    </form>
+
+  
+         <br><br>
+         <br><br>
+         
+         
+    </p>
+</body>
+</html>

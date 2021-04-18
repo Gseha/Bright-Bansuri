@@ -1,0 +1,59 @@
+body {background: url("blue8.jpg"); background-attachment: fixed; background-size: 100% 100%; }
+.piano {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.white {
+    width: 9%;
+    min-width: 60px;
+    height: 70%;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.black {
+    width: 8%;
+    height: 45%;
+    margin-left: -4%;
+    margin-right: -4%;
+    z-index: 2;
+    background-color: black;
+}
+.white.active {
+    background-color: #ccc;
+    border: 1px solid black
+}
+
+.black.active {
+    background-color: #333;
+    border: 1px solid black
+}
+div.image{position:relative;margin-left:0;margin-right:auto;max-width:800px;height:auto;font-size:80%;padding-bottom:0.1%;text-align:left;overflow:auto;}
+.smallfont {font-size: 90%; }
+
+p{ font-size: 20px; font-family: cursive;}
+h1{ font-size: 40px; font-family: 'caveat brush';}
+nav ul { display: block; position: fixed; top: 30px; bottom: 30px; right: 0; width:25%; border:2px solid black; overflow-y: scroll; }
+nav li { font-size: 15px; padding-left: 10px; font-weight: bold; line-height:200%; }
+nav li:hover{ transition: 0.5s;
+    transform: scale(1.2);}
+.content {float: left; position: relative; width: 68%; padding:25px; margin-top: 60px; margin-right:29%; margin-bottom:7%; margin-left: 1%; overflow: hidden; padding-right: 10px; }
+div.box:hover{ transition: 0.5s;
+    transform: scale(0.7); }
+.box {
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    font-variant: small-caps;
+    padding: 10px;
+    border: 2px ridge black;
+    font-weight: bold; }
+.top{  display: block; position: relative;}
+.text{ font-size: 20px;}
+li{ font-size: 22px; font-family: cursive; font-weight: bolder;}
+.imgright{float: right; position:relative; padding-left: 20px;max-width:800px;height:auto;font-size:80%;padding-bottom:0.1%;text-align:left;overflow:auto;}
+.imgcenter{ float: left; position:relative; padding: 20px;font-size:80%;padding-bottom:0.1%;text-align:left;overflow:auto;}
+.sargam{ font-weight: bold; font-family: monospace;}
+.index{ background:url(bg3.png) ; display: inline-block; border: 2px solid black; border-radius: 30px; padding: 10px;}

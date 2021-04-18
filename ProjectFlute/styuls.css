@@ -1,0 +1,11 @@
+p{
+
+            background: red;
+            border-radius: 40px;
+            display: inline-block;
+            vertical-align: top;
+            font-size: 30px;
+            font-variant: small-caps;
+            padding: 10px;
+            border: 2px ridge black;
+        }

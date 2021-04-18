@@ -1,0 +1,61 @@
+<html>
+<head><title> FeedBack Form</title>
+    <style>
+        p{ font-size: 20px; font-family: cursive;}
+h1{ font-size: 40px; font-family: 'caveat brush';}
+form{padding-left: 40px; text-align: left;}
+    </style>
+    <script src="feedback.js"></script>
+ <link type="text/css" rel="stylesheet" href="index.css">   
+</head>
+<body alink=black vlink=black background="bgblue.jpg"> 
+    <div class="top "><a href="BansuriHomepage.html">Home</a></div>
+        <div class="top"><a href="menu.html">Menu</a></div>
+        <div class="top"><a href="aboutus.html">About Us</a></div>
+        <div class="top"><a href="BansuriContactUs.html">Contact Us</a></div>
+        <div class="top"><a href="bansuriBuyFlutes.html">Buy Flutes</a></div>
+        <div class="top"><a href="TalkToUs.html">Talk to Us</a></div>
+        <br><br><br><br>
+        <img src="krishnabansuri.jpg" style="float: right; padding-left: 40px; height: 70%;"> 
+        <div style="background:url(cloud1.jpg) ; display: inline-block; border: 2px solid black; border-radius: 30px; padding: 20px; text-align: center; margin-left: 60px;">
+            <ul >
+                 <li><a href="QueryForm.html">Query Form</a></li>
+                 <li><a href="feedbackform.html">FeedBack Form</a></li>
+             </ul>
+         </div>      
+    <form method="POST" name="FeedBack Form">
+        <H1>FEEDBACK FORM</H1><BR>
+            <P>First Name :</P>
+            <INPUT type="text" id="firstname" />
+            <br>
+            <p>Last Name</p>
+            <INPUT type="text" id="lastname" />
+            <br>
+            <br>
+            <p>Enter your Email address: </p>
+            <INPUT type="email" id="email"/>
+            
+            <br><br>
+            <p>How would you rate us?</p><br>
+            <input type="radio" id=Rating value=Outstanding/>Outstanding
+            <input type="radio" id=Rating value=Good/>Good
+            <input type="radio" id=Rating value=CanImprove/>Can Improve 
+            <input type="radio" id=Rating value=NotGood/>Not Good<br><br>
+
+            <p>Anything you would like to share: </p>
+            <br>
+            <textarea rows=8 cols=40 id="FeedBack">Enter your Feedback here</textarea>
+            <br><br>
+            <input type="submit" name="submit" value="submit"  onclick="Submit()"/>
+            <input type="reset" name="reset" value="reset"/>
+            <br><br>
+    </form>
+
+  
+         <br><br>
+         <br><br>
+         
+         
+    </p>
+</body>
+</html>
